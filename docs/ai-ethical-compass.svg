@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">UAIP AI Ethical Compass</title>
+  <desc id="desc">A one-page visual diagram of the Universal AI Interaction Protocol with five layers.</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .panel { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; rx: 24; }
+      .title { font: 700 46px Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 22px Arial, sans-serif; fill: #334155; }
+      .section { font: 700 28px Arial, sans-serif; fill: #0f172a; }
+      .body { font: 400 22px Arial, sans-serif; fill: #1e293b; }
+      .small { font: 400 20px Arial, sans-serif; fill: #334155; }
+      .chip { fill: #e2e8f0; stroke: #94a3b8; stroke-width: 1.5; rx: 18; }
+      .arrow { stroke: #64748b; stroke-width: 4; fill: none; marker-end: url(#m); }
+    </style>
+    <marker id="m" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#64748b" />
+    </marker>
+  </defs>
+  <rect class="bg" width="1200" height="1600"/>
+  <text x="600" y="90" text-anchor="middle" class="title">Universal AI Interaction Protocol (UAIP v1.0)</text>
+  <text x="600" y="130" text-anchor="middle" class="subtitle">A simple cross-system protocol for responsible human–AI interaction</text>
+
+  <rect x="120" y="190" width="960" height="130" class="panel"/>
+  <text x="160" y="240" class="section">Layer 1 — Protocol Handshake</text>
+  <text x="160" y="285" class="body">Initialize UAIP, declare version, and activate the reasoning framework.</text>
+
+  <path d="M600 320 L600 365" class="arrow"/>
+
+  <rect x="120" y="365" width="960" height="230" class="panel"/>
+  <text x="160" y="415" class="section">Layer 2 — Ethical Compass</text>
+  <rect x="160" y="455" width="180" height="46" class="chip"/><text x="250" y="485" text-anchor="middle" class="body">Truth</text>
+  <rect x="365" y="455" width="180" height="46" class="chip"/><text x="455" y="485" text-anchor="middle" class="body">Justice</text>
+  <rect x="570" y="455" width="180" height="46" class="chip"/><text x="660" y="485" text-anchor="middle" class="body">Solidarity</text>
+  <rect x="775" y="455" width="180" height="46" class="chip"/><text x="865" y="485" text-anchor="middle" class="body">Freedom</text>
+  <text x="160" y="545" class="small">Truth → evidence, transparency, accuracy</text>
+  <text x="160" y="578" class="small">Justice → fairness and impact awareness</text>
+  <text x="600" y="545" class="small">Solidarity → dignity and human well-being</text>
+  <text x="600" y="578" class="small">Freedom → autonomy and informed choice</text>
+
+  <path d="M600 595 L600 640" class="arrow"/>
+
+  <rect x="120" y="640" width="960" height="160" class="panel"/>
+  <text x="160" y="690" class="section">Layer 3 — Cognitive Discipline</text>
+  <text x="160" y="735" class="body">Critical thinking • Self-reflection • Self-regulation</text>
+  <text x="160" y="770" class="small">Question assumptions, inspect reasoning paths, avoid impulsive conclusions.</text>
+
+  <path d="M600 800 L600 845" class="arrow"/>
+
+  <rect x="120" y="845" width="960" height="210" class="panel"/>
+  <text x="160" y="895" class="section">Layer 4 — Ethical Evaluation Loop</text>
+  <text x="160" y="940" class="body">Truth Check → Justice Check → Solidarity Check → Freedom Check</text>
+  <text x="160" y="980" class="small">If misalignment appears: revise reasoning → re-evaluate → respond</text>
+  <rect x="170" y="1005" width="860" height="24" fill="#e2e8f0" rx="12"/>
+  <rect x="170" y="1005" width="720" height="24" fill="#94a3b8" rx="12"/>
+
+  <path d="M600 1055 L600 1100" class="arrow"/>
+
+  <rect x="120" y="1100" width="960" height="220" class="panel"/>
+  <text x="160" y="1150" class="section">Layer 5 — Safety Guardrails</text>
+  <text x="160" y="1195" class="body">Detect and avoid:</text>
+  <text x="160" y="1235" class="small">misinformation • propaganda • scapegoating</text>
+  <text x="160" y="1268" class="small">dehumanization • coercive persuasion • fabricated evidence</text>
+  <text x="160" y="1308" class="small">If detected: flag issue → correct reasoning → proceed</text>
+
+  <rect x="120" y="1365" width="960" height="140" class="panel"/>
+  <text x="160" y="1420" class="section">Intended Uses</text>
+  <text x="160" y="1460" class="small">Chat • APIs • research workflows • classrooms • governance • multi-AI collaboration</text>
+</svg>
