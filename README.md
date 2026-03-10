@@ -1,3 +1,4 @@
+![UAIP Ethical Compass](docs/ai-ethical-compass.svg)
 # Universal AI Interaction Protocol (UAIP) 🌐🤖
 
 A lightweight, open protocol for ethically aligned, cognitively disciplined, and safety-aware AI interaction.
