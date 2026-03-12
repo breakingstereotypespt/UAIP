@@ -335,6 +335,7 @@ See:
 ```text
 integrations/openai/example_openai.py
 integrations/anthropic/example_anthropic.py
+integrations/minimax/example_minimax.py
 integrations/local-llm/example_local_llm.py
 ```
 
